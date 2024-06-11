@@ -31,7 +31,7 @@ This is a simple Password Generator web application built with HTML, CSS, and Ja
 
 1. Clone the repository:
     ```
-    git clone https://github.com/yourusername/password-generator.git
+    git clone https://github.com/AwaibAliKhan777/password-generator.git
     ```
 2. Navigate to the project directory:
     ```
