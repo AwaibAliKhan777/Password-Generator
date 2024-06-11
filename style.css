@@ -1,0 +1,104 @@
+.container {
+    width: min(450px, 90%); /* Set container width */
+    background: #8c92bb; /* Set background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; /* Box shadow for depth */
+    padding-left: 1rem; /* Padding on the left */
+}
+
+.container p {
+    font-weight: 600; /* Bold text */
+    font-size: 1.31rem; /* Font size */
+    padding: 1rem 1.75rem; /* Padding */
+    border-bottom: 1px solid #858bb2; /* Bottom border */
+}
+
+.wrapper {
+    margin: 1.25rem 1.75rem; /* Margin around the wrapper */
+}
+
+.wrapper .input-box {
+    position: relative; /* Position relative for containing absolute positioned children */
+}
+
+.input-box input {
+    width: 83%; /* Width of the input box */
+    height: 53px; /* Height of the input box */
+    color: #fff; /* Text color */
+    background: #858bb2; /* Background color */
+    font-size: 1.06rem; /* Font size */
+    font-weight: 500; /* Font weight */
+    border-radius: 4px; /* Rounded corners */
+    letter-spacing: 1.4px; /* Letter spacing */
+    border: 1px solid #000; /* Border */
+    padding: 0 2.85rem 0 1rem; /* Padding inside the input */
+}
+
+.input-box span {
+    position: absolute; /* Absolute position for the span */
+    right: 13px; /* Position from the right */
+    cursor: pointer; /* Pointer cursor on hover */
+    line-height: 53px; /* Line height to center text vertically */
+    color: #000; /* Text color */
+    padding-right: 1rem; /* Right padding */
+}
+
+.input-box span:hover {
+    color: #46495e !important; /* Change color on hover */
+}
+
+.wrapper .pass-settings {
+    margin: 1.56rem 0 1.25rem; /* Margin for the password settings section */
+}
+
+.pass-settings .options {
+    display: flex; /* Flexbox layout */
+    list-style: none; /* Remove list styling */
+    flex-wrap: wrap; /* Wrap items to next line */
+    margin-top: 1rem; /* Margin on top */
+}
+
+.pass-settings .options .option {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Align items vertically */
+    margin-bottom: 1rem; /* Margin at the bottom */
+    width: calc(100% / 2); /* Half width */
+}
+
+.options .option:first-child input {
+    opacity: 0.7; /* Slightly transparent */
+}
+
+.options .option input {
+    height: 16px; /* Height of checkbox */
+    width: 16px; /* Width of checkbox */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.options .option label {
+    cursor: pointer; /* Pointer cursor on hover */
+    color: #000; /* Text color */
+    padding-left: 0.63rem; /* Padding on the left */
+}
+
+.pass-settings input[type="checkbox"] {
+    accent-color: #46496e; /* Checkbox accent color */
+}
+
+.wrapper .generate-btn {
+    width: 100%; /* Full width button */
+    color: #fff; /* Text color */
+    border: none; /* No border */
+    outline: none; /* No outline */
+    cursor: pointer; /* Pointer cursor on hover */
+    background: #46496e; /* Background color */
+    font-size: 1.06rem; /* Font size */
+    padding: 0.94rem 0; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    text-transform: uppercase; /* Uppercase text */
+    margin: 1.25rem 0; /* Margin at the top and bottom */
+}
+
+.wrapper .generate-btn:hover {
+    background: #46495e; /* Background color on hover */
+}
